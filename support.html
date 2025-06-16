@@ -1,44 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OptionTracker Support</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      margin: 2rem;
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-      max-width: 700px;
-    }
-    h1 {
-      color: #0a84ff;
-    }
-    a {
-      color: #0a84ff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptionTracker - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #1a1a1a;
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .contact-section {
+            margin-top: 2em;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            margin: 2em 0 1em 0;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1em;
+            line-height: 1.7;
+        }
+
+        .contact-email {
+            font-weight: 600;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact-email:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background: #ddd;
+            margin: 2em 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>OptionTracker – Support</h1>
-  <p>
-    Thank you for using <strong>OptionTracker</strong>.
-  </p>
+    <div class="container">
+        <h1>Support</h1>
+        <p>
+            Thank you for using <strong>OptionTracker</strong> – options tracker & journal.
+        </p>
 
-  <h2>Need Help?</h2>
-  <p>
-    If you have any questions, encounter issues, or would like to share feedback, feel free to reach out:
-  </p>
-  <ul>
-    <li>Email us at: <a href="mailto:hello@zacsoft.co">hello@zacsoft.co</a></li>
-  </ul>
+        <h2>How to Get Help</h2>
+        <p>
+            If you have any questions, encounter issues, or want to provide feedback, we're here to help.
+        </p>
+        <p>
+            Email us directly at: <a href="mailto:hello@zacsoft.co" class="contact-email">hello@zacsoft.co</a>
+        </p>
 
-  <p>We usually respond within 24–48 hours.</p>
+        <hr>
+
+        <div class="contact-section">
+            <h2>Typical Response Time</h2>
+            <p>
+                We usually respond within 24–48 hours. If you don’t hear from us in that time, please check your spam folder or resend your message through the app.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
