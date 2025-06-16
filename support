@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OptionTracker Support</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      max-width: 700px;
+    }
+    h1 {
+      color: #0a84ff;
+    }
+    a {
+      color: #0a84ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>OptionTracker – Support</h1>
+  <p>
+    Thank you for using <strong>OptionTracker</strong>.
+  </p>
+
+  <h2>Need Help?</h2>
+  <p>
+    If you have any questions, encounter issues, or would like to share feedback, feel free to reach out:
+  </p>
+  <ul>
+    <li>Email us at: <a href="mailto:hello@zacsoft.co">hello@zacsoft.co</a></li>
+  </ul>
+
+  <p>We usually respond within 24–48 hours.</p>
+</body>
+</html>
